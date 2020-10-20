@@ -5,7 +5,8 @@ public class Problem1 {
     Similar to the sorting in homework 1, I made it so that
     there is a way to switch without having to go through
     the array twice. By making i = -1 at the end of the if
-    statement, it resets the loop so that it can adjust the place.
+    statement, it resets the loop so that it can adjust the place in the
+    array which is the i.
      */
 
     // Do not change signature (function name, parameters type, and return type)
