@@ -13,15 +13,19 @@ public class Problem2Test {
                 {2, 3, 4},
                 {1, 2, 2, 3, 4, 5, 5},
                 {1, 1, 1, 1},
+                {2, 2, 3, 4, 4},
+                {1, 2, 2,3, 3, 4, 5, 5}
         };
 
         int[][] expects = {
-                {0, 1, 2, 4, 6}
+                {0, 1, 2, 4, 6},
                 // add more test cases
                 {0},
                 {2, 3, 4},
                 {1, 2, 3, 4, 5},
                 {1},
+                {2, 3, 4},
+                {1, 2, 3, 4, 5}
         };
 
         assertEquals(expects.length, inputs.length);
