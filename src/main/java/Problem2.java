@@ -15,9 +15,9 @@ public class Problem2 {
         int lengthMinusOne = nums.length - 1;
         int newLength = 1;
         for(int i = 0; i < lengthMinusOne; i++){
-            for(int a = 0; a < length; a++){
+            for(int a = 0; a < lengthMinusOne; a++){
                 if(nums[i] == nums[a]){
-                    newLength = nums.length - 1;
+                    newLength = length - 1;
                 }
             }
         }
