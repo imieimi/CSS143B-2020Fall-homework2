@@ -32,6 +32,7 @@ public class Problem1Test {
 
         for (int i = 0; i < inputs.length; i++) {
             Problem1.colorSort(inputs[i]);
+
             assertArrayEquals("cases " + i + " failed", expects[i], inputs[i]);
         }
     }
